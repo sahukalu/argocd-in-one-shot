@@ -10,7 +10,7 @@ spec:
     targetRevision: main        # Branch to watch
     path: ui_approach/nginx     # Path in repo with manifests
   destination:
-    server: https://10.160.15.237:33893    # Target cluster, run `argocd cluster list` to see
+    server: https://10.160.15.237:33893    # Target cluster, run `argocd cluster list` to see add your own server details 
     namespace: frontend          # Namespace inside that cluster
   syncPolicy:                    # Sync policy settings
     automated:                   # Enable automated sync
